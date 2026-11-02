@@ -1,0 +1,35 @@
+-- Customer Credit and Sales Performance Analysis
+-- The Sales and Finance departments want to identify customers whose total purchases are higher than the average purchases made by all customers.
+-- Retrieve the customer ID, customer's full name,total number of orders, and total amount spentfor customers whose total spending is above average.
+-- TABLES:Sales_Customer,Person_Person,Sales_SalesOrderHeader
+-- Subqueries in SELECT and WHERE clauses.
+
+SELECT
+    C.CustomerID,
+    (
+        SELECT CONCAT_WS(' ', P.FirstName, P.MiddleName, P.LastName)
+        FROM Person_Person AS P
+        WHERE P.BusinessEntityID = C.PersonID ) AS FullName,
+    (
+        SELECT COUNT(SOH.SalesOrderID)
+        FROM Sales_SalesOrderHeader AS SOH
+        WHERE SOH.CustomerID = C.CustomerID  ) AS TotalOrders,
+    (
+        SELECT SUM(SOH.TotalDue)
+        FROM Sales_SalesOrderHeader AS SOH
+        WHERE SOH.CustomerID = C.CustomerID ) AS TotalSpending
+FROM Sales_Customer AS C
+WHERE (
+    SELECT SUM(SOH.TotalDue)
+    FROM Sales_SalesOrderHeader AS SOH
+    WHERE SOH.CustomerID = C.CustomerID)> (
+    SELECT AVG(CustomerTotal)
+    FROM (
+        SELECT
+            CustomerID,
+            SUM(TotalDue) AS CustomerTotal
+        FROM Sales_SalesOrderHeader
+        GROUP BY CustomerID
+    ) AS AverageSpending
+)
+ORDER BY TotalSpending DESC;
