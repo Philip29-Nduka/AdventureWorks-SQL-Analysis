@@ -5,7 +5,7 @@
   -- and support strategic decisions regarding product development, inventory allocation, and sales planning.
 --How can product, product subcategory, and sales transaction records be integrated to generate a comprehensive sales performance report showing product category names, 
   -- individual product names, quantities sold, and total sales revenue, thereby enabling management to assess category-level contributions and identify products that drive revenue?
-Tables: Production_ProductCategory, Production_ProductSubcategory, Production_Product, Sales_SalesOrderDetail
+-- Tables: Production_ProductCategory, Production_ProductSubcategory, Production_Product, Sales_SalesOrderDetail
 
 SELECT
     PC.Name AS ProductCategory,
