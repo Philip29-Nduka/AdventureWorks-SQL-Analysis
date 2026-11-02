@@ -1,8 +1,7 @@
-The Inventory Management department wants to improve stock visibility across warehouse locations to support effectivestock allocation, storage planning, and operational 
-efficiency.How can product, inventory, and warehouse location records be combined to generate an inventory report showing each product's name, warehouse location, 
-shelf, bin, and available,quantity at each location?
-TABLES:
- Production_Product,Production_ProductInventory,Production_Location.
+-- The Inventory Management department wants to improve stock visibility across warehouse locations to support effectivestock allocation, storage planning, and operational 
+-- efficiency.How can product, inventory, and warehouse location records be combined to generate an inventory report showing each product's name, warehouse location, 
+-- shelf, bin, and available,quantity at each location?
+-- TABLES: Production_Product,Production_ProductInventory,Production_Location.
 
   
   SELECT
