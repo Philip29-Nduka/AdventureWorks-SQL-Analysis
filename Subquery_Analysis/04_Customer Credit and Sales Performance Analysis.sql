@@ -4,6 +4,8 @@
 -- TABLES:Sales_Customer,Person_Person,Sales_SalesOrderHeader
 -- Subqueries in SELECT and WHERE clauses.
 
+
+
 SELECT
     C.CustomerID,
     (
