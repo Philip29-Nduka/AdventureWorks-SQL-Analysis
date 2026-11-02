@@ -1,8 +1,8 @@
-Employee and Departmental Workforce Analysis
-The Human Resources (HR) department aims to strengthen workforce planning and improve the accuracy of employee records to support strategic staffing decisions,
- departmental resource allocation, and organisational reporting.
- How can employee, personal, employment, and departmental data be integrated to produce a comprehensive workforce directory containing each employee’s full name,
- job title, hire date, and current department, thereby providing management with reliable information for workforce analysis and planning?
+-- Employee and Departmental Workforce Analysis
+-- The Human Resources (HR) department aims to strengthen workforce planning and improve the accuracy of employee records to support strategic staffing decisions,
+--- departmental resource allocation, and organisational reporting.
+-- How can employee, personal, employment, and departmental data be integrated to produce a comprehensive workforce directory containing each employee’s full name,
+-- job title, hire date, and current department, thereby providing management with reliable information for workforce analysis and planning?
 
 SELECT
     E.BusinessEntityID,
