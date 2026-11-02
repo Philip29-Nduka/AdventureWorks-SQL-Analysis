@@ -46,7 +46,7 @@ SQL Skills Demonstrated
 - Data filtering and conditional comparisons
 - CONCAT_WS() for combining text fields
 - Sorting and result organisation
-- 
+  
  What I Learned
 
 Working on this project helped me understand how different tables relate to one another, how to retrieve information from multiple tables, and how to use subqueries to solve different business questions.
