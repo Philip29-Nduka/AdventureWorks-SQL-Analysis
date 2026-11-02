@@ -8,22 +8,22 @@ I worked on different business scenarios covering sales, customers, employees, i
 What I Worked On
 
 JOINs
-- Customer purchase history
-- Employee and department information
-- Inventory and warehouse management
+-Customer purchase history
+-Inventory and warehouse management
+-Customer and sales order analysis using RIGHT JOIN
+-Employee and departmental information
 - Manufacturing work orders
 - Sales territory performance
 - Product category analysis
 - Employee sales performance
-- Customer and sales order analysis using RIGHT JOIN
 
 Subqueries
 - Products with above-average standard costs
 - Customers who have placed orders
 - Customers with above-average spending
-- Product price comparison using ANY
-- Customer credit and sales performance
-- Comparing product costs with the overall average
+-  Customer credit and sales performance
+- Products Compared With Average Standard Cost
+- Products Priced Higher Than Products in a Selected Subcategory
 - Sales representatives with above-average sales performance
 
  Tools Used
