@@ -2,7 +2,7 @@
 --  Management wants to identify high-value customers.
 --  Calculate each customer's total order amount, then return customers whose total spending is above the average customer spending.
 --  Subquery in FROM, followed by an outer query using WHERE.
-TABLES:Sales_SalesOrderHeader
+-- TABLES:Sales_SalesOrderHeader
 
 
 SELECT
