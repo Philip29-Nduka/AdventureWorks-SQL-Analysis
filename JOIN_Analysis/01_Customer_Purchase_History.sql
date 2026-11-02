@@ -1,15 +1,7 @@
-PROJECT: AdventureWorks SQL Analysis
-
-QUESTION 1: Customer Purchase History
-SCENARIO:
-The Customer Relationship Management (CRM) team wants to
-understand customer purchasing behaviour by analysing
-order history, purchase frequency and transaction values.
-BUSINESS QUESTION:
-Display customer IDs, customer names, sales order IDs,
-order dates and total amounts paid.
-TABLES:
-Sales_Customer,Person_Person,Sales_SalesOrderHeader
+-- Customer Purchase History
+--The Customer Relationship Management (CRM) team wants to understand customer purchasing behaviour by analysing order history, purchase frequency and transaction values.
+-- Display customer IDs, customer names, sales order IDs,order dates and total amounts paid.
+--TABLES:Sales_Customer,Person_Person,Sales_SalesOrderHeader
 
   
   SELECT
