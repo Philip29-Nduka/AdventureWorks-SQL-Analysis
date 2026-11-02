@@ -32,7 +32,21 @@ Subqueries
 - MySQL Workbench
 - AdventureWorks Database
 - GitHub
-
+  
+SQL Skills Demonstrated
+- SELECT statements and column aliasing
+- INNER JOINs and multiple-table relationships
+- WHERE and HAVING clauses
+- GROUP BY and ORDER BY
+- Aggregate functions (SUM, AVG, COUNT)
+- Subqueries in SELECT, FROM, and WHERE clauses
+- Correlated and nested subqueries
+- IN and ANY operators
+- RIGHT JOIN and LEFT JOIN
+- Data filtering and conditional comparisons
+- CONCAT_WS() for combining text fields
+- Sorting and result organisation
+- 
  What I Learned
 
 Working on this project helped me understand how different tables relate to one another, how to retrieve information from multiple tables, and how to use subqueries to solve different business questions.
