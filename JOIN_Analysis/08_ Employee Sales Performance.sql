@@ -4,7 +4,7 @@
 -- How can salesperson records, personal information, and sales order transactions be integrated to generate a performance report showing each 
 -- salesperson’s full name, the number of sales orders handled, and the total sales value, restricted to salespeople whose aggregate sales value exceeds 
 -- $50,000?
-Tables: Sales_SalesPerson, Person_Person, Sales_SalesOrderHeader.
+-- Tables: Sales_SalesPerson, Person_Person, Sales_SalesOrderHeader.
 
 
 SELECT
